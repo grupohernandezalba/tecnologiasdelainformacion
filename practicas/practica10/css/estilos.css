@@ -1,0 +1,44 @@
+:root {
+    --color1: pink;
+    --color2: red;
+    --color3: coral;
+    --color4: orange;
+    --color5: darkred;
+    --color6: deeppink;
+    --fuente: 'Arial', sans-serif;
+}
+
+* {
+    background-color: var(--color1);
+    font-family: var(--fuente);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.item {
+    background-color: var(--color2);
+    border: 2px solid var(--color3);
+    padding: 20px;
+    text-align: center;
+}
+
+#item1 {
+    background-color: var(--color4);
+    border-color: var(--color5);
+}
+#item6 {
+    background-color: var(--color6);
+    border-color: var(--color5);
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}

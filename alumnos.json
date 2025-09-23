@@ -1,0 +1,146 @@
+[
+    {
+        "nombre" : "Hector Julián",
+        "apellidos" : "Amaro Moreno",
+        "participaciones" : 0,
+        "practicas" : 0,
+        "asistencias" : 3,
+        "foto" : "imagenes/chicks.webp",
+        "equipo" : "NA"
+    },
+    {
+        "nombre" : "Rene",
+        "apellidos" : "Carrillo García",
+        "participaciones" : 1,
+        "practicas" : 0,
+        "asistencias" : 3,
+        "foto" : "imagenes/luigi.webp",
+        "equipo" : "NA"
+    },
+    {
+        "nombre" : "Valeria",
+        "apellidos" : "Dealba",
+        "participaciones" : 1,
+        "practicas" : 0,
+        "asistencias" : 3,
+        "foto" : "imagenes/flo.webp",
+        "equipo" : "NA"
+    },
+    {
+        "nombre" : "Mariana",
+        "apellidos" : "Galván Padilla",
+        "participaciones" : 1,
+        "practicas" : 1,
+        "asistencias" : 3,
+        "foto" : "imagenes/holley.webp",
+        "equipo" : "NA"
+    },
+    {
+        "nombre" : "Mia Isabella",
+        "apellidos" : "García Cardoso",
+        "participaciones" : 0,
+        "practicas" : 1,
+        "asistencias" : 3,
+        "foto" : "imagenes/sally.webp",
+        "equipo" : "NA"
+    },
+    {
+        "nombre" : "Sebastián",
+        "apellidos" : "García Salomón",
+        "participaciones" : 2,
+        "practicas" : 0,
+        "asistencias" : 3,
+        "foto" : "imagenes/mate.webp",
+        "equipo" : "NA"
+    },
+    {
+        "nombre" : "José Gael",
+        "apellidos" : "Hernández Velázquez",
+        "participaciones" : 1,
+        "practicas" : 0,
+        "asistencias" : 3,
+        "foto" : "imagenes/mack.webp",
+        "equipo" : "NA"
+    },
+    {
+        "nombre" : "César Augusto",
+        "apellidos" : "Luna Fonseca",
+        "participaciones" : 1,
+        "practicas" : 1,    
+        "asistencias" : 3,
+        "foto" : "imagenes/guido.webp",
+        "equipo" : "NA"
+    },
+    {
+        "nombre" : "Sebastian",
+        "apellidos" : "Madrazo Ortiz",
+        "participaciones" : 0,
+        "practicas" : 0,
+        "asistencias" : 3,
+        "foto" : "imagenes/fillmore.webp",
+        "equipo" : "NA"
+    },
+    {
+        "nombre" : "Miguel Sebastian",
+        "apellidos" : "Miramontes Castro",
+        "participaciones" : 1,
+        "practicas" : 1,
+        "asistencias" : 3,
+        "foto" : "imagenes/sargento.webp",
+        "equipo" : "NA"
+    },
+    {
+        "nombre" : "Angel Antonio",
+        "apellidos" : "Miranda Ramírez",
+        "participaciones" : 1,
+        "practicas" : 1,
+        "asistencias" : 3,
+        "foto" : "imagenes/francesco.webp",
+        "equipo" : "NA"
+    },
+    {
+        "nombre" : "Jorge Ismael",
+        "apellidos" : "Negrete Gómez",
+        "participaciones" : 1,
+        "practicas" : 0,
+        "asistencias" : 3,
+        "foto" : "imagenes/hudson.webp",
+        "equipo" : "NA"
+    },
+    {
+        "nombre" : "Edwin Sinaí",
+        "apellidos" : "Segoviano González",
+        "participaciones" : 1,
+        "practicas" : 1,
+        "asistencias" : 3,
+        "foto" : "imagenes/elrey.webp",
+        "equipo" : "NA"
+    },
+    {
+        "nombre" : "Maryam",
+        "apellidos" : "Torres Alderete",
+        "participaciones" : 1,
+        "practicas" : 0,
+        "asistencias" : 3,
+        "foto" : "imagenes/kori.webp",
+        "equipo" : "NA"
+    },
+    {
+        "nombre" : "Oscar",
+        "apellidos" : "Urbina Alvarado",
+        "participaciones" : 0,
+        "practicas" : 1,
+        "asistencias" : 2,
+        "foto" : "imagenes/finn.webp",
+        "equipo" : "NA"
+    },
+    {
+        "nombre" : "Johan Gael",
+        "apellidos" : "Vasquez Noriega",
+        "participaciones" : 2,
+        "practicas" : 1,
+        "asistencias" : 3,
+        "foto" : "imagenes/storm.webp",
+        "equipo" : "NA"
+    }
+]
