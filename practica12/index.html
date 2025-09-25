@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejemplo em vs rem</title>
+  <style>
+    html {
+      font-size: 16px; /* base = 16px */
+    }
+
+    .ejemplo {
+      border: 2px solid #333;
+      padding: 1rem;
+      margin-bottom: 20px;
+    }
+
+    .em-demo {
+      font-size: 20px; /* contenedor con 20px */
+    }
+    .em-demo p {
+      font-size: 1.5em; /* relativo al padre = 30px */
+    }
+    .em-demo p span {
+      font-size: 1.5em; /* relativo a <p> = 45px */
+    }
+
+    .rem-demo {
+      font-size: 20px; /* contenedor con 20px */
+    }
+    .rem-demo p {
+      font-size: 1.5rem; /* relativo al root (16px) = 24px */
+    }
+    .rem-demo p span {
+      font-size: 1.5rem; /* sigue relativo al root = 24px */
+    }
+  </style>
+</head>
+<body>
+  <div class="ejemplo em-demo">
+    <h2>Ejemplo con <code>em</code></h2>
+    <p>
+      Texto con 1.5em  
+      <span>(span dentro con 1.5em más → se acumula)</span>
+    </p>
+  </div>
+
+  <div class="ejemplo rem-demo">
+    <h2>Ejemplo con <code>rem</code></h2>
+    <p>
+      Texto con 1.5rem  
+      <span>(span dentro también 1.5rem → NO se acumula)</span>
+    </p>
+  </div>
+</body>
+</html>
