@@ -1,0 +1,48 @@
+html {
+    font-size: 10px; /* 1rem = 16px */
+}
+
+body {
+   background-color: #8a2be2;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 3.5em; /* cuanto seria en px? */
+
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+    margin: 50px auto;
+    padding: 20px;
+    
+}
+a:hover {
+    background-color: #ffcc00;
+    color: black;
+}
+
+#padre {
+    font-size: 10px;
+}
+
+h2 {
+    font-size: 4em;  /* cuanto seria en px? */
+}
+
+h3 {
+    font-size: 5.5em; /* cuanto seria en px? */
+}
+
+li {
+    font-size: 30rem; /* relativo a root */
+}

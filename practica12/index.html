@@ -1,55 +1,39 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>Ejemplo em vs rem</title>
-  <style>
-    html {
-      font-size: 16px; /* base = 16px */
-    }
-
-    .ejemplo {
-      border: 2px solid #333;
-      padding: 1rem;
-      margin-bottom: 20px;
-    }
-
-    .em-demo {
-      font-size: 20px; /* contenedor con 20px */
-    }
-    .em-demo p {
-      font-size: 1.5em; /* relativo al padre = 30px */
-    }
-    .em-demo p span {
-      font-size: 1.5em; /* relativo a <p> = 45px */
-    }
-
-    .rem-demo {
-      font-size: 20px; /* contenedor con 20px */
-    }
-    .rem-demo p {
-      font-size: 1.5rem; /* relativo al root (16px) = 24px */
-    }
-    .rem-demo p span {
-      font-size: 1.5rem; /* sigue relativo al root = 24px */
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 12</title>
+<link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-  <div class="ejemplo em-demo">
-    <h2>Ejemplo con <code>em</code></h2>
-    <p>
-      Texto con 1.5em  
-      <span>(span dentro con 1.5em más → se acumula)</span>
-    </p>
-  </div>
+   <h1>Ejemplo de uso de em y rem</h1> 
+   <a href="https://google.com/">Ir a la práctica</a>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti eaque consequatur illum iure distinctio eos libero! Distinctio exercitationem dolorem perferendis reiciendis quidem laboriosam illo commodi tenetur, fuga dolorum non accusamus.</p>
+    <p style="font-size: 1cm; text-align: center;">Otro párrafo</p>
+    <p style="font-size: 3mm; text-align: right;">párrafo en mm</p>
 
-  <div class="ejemplo rem-demo">
-    <h2>Ejemplo con <code>rem</code></h2>
-    <p>
-      Texto con 1.5rem  
-      <span>(span dentro también 1.5rem → NO se acumula)</span>
-    </p>
-  </div>
+    <div id="padre">
+        <p>Este es un párrafo dentro del div padre.</p>
+        <h2>Otro Encabezado para entender em</h2>
+        <h3>Un tercer encabezado
+            <span style="font-size: 1.5em;">Texto en span
+                <p style="font-size: 2em;">Hola Mundo</p>
+            </span>
+        </h3>
+    </div>
+
+    <ul>
+        <li>Leche</li>
+        <li>Pan</li>
+        <li>Huevos</li>
+        <li>Carne</li>
+        <li>Verduras</li>
+        <li>Frutas</li>
+        <li>Refrescos</li>
+        <li>Doritos</li>
+        <li>Maruchan</li>
+    </ul>
+
 </body>
 </html>
